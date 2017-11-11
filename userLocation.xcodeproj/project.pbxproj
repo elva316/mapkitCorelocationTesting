@@ -13,6 +13,7 @@
 		23C752781FB53037003ACBF9 /* userLocation.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 23C752761FB53037003ACBF9 /* userLocation.xcdatamodeld */; };
 		23C7527A1FB53037003ACBF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23C752791FB53037003ACBF9 /* Assets.xcassets */; };
 		23C7527D1FB53037003ACBF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23C7527B1FB53037003ACBF9 /* LaunchScreen.storyboard */; };
+		23C752861FB532EE003ACBF9 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23C752851FB532D9003ACBF9 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		23C752791FB53037003ACBF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		23C7527C1FB53037003ACBF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		23C7527E1FB53037003ACBF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23C752851FB532D9003ACBF9 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23C752861FB532EE003ACBF9 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +45,7 @@
 			children = (
 				23C7526E1FB53037003ACBF9 /* userLocation */,
 				23C7526D1FB53037003ACBF9 /* Products */,
+				23C752841FB532D9003ACBF9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,6 +69,14 @@
 				23C752761FB53037003ACBF9 /* userLocation.xcdatamodeld */,
 			);
 			path = userLocation;
+			sourceTree = "<group>";
+		};
+		23C752841FB532D9003ACBF9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				23C752851FB532D9003ACBF9 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,6 +291,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XRB2RCLKP4;
 				INFOPLIST_FILE = userLocation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.V.userLocation;
@@ -293,6 +306,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XRB2RCLKP4;
 				INFOPLIST_FILE = userLocation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.V.userLocation;
